@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WBC Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Jost;
+            font-style: normal;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+
+        body{
+            min-height: 100%;
+            background-size: 100%;
+            background-position: absolute;
+            width: 1546px;
+            height: 1004px;
+        }
+
+        header{
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),#294C84;
+            box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
+            padding: 20px 7%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+
+        header .title{
+            font-weight: bolder;
+            font-size: 90px;
+            color: #ffffff;
+            width: 350px;
+            height: 101px;
+            left: 180px;
+            top: 15px;
+        }
+
+        .search{
+            border: solid 1px #ccc;
+            border-radius: 4px;
+        }
+
+        input[type=search]{
+            border: none;
+            outline:none;
+            font-size: 24px;
+        }
+
+        input[type=search]::placeholder{
+            color: black;
+        } 
+
+        i{
+            font-size: 20px;
+            color: rgb(136, 131, 131);
+            margin: 0 5px;
+        }
+
+        .main{
+            position: absolute;
+            top: 300px;
+            width: 360px;
+            left: 50px;
+            margin: 0 auto;
+            height: 580px;
+            box-shadow: 3px 3px 10px rgba(53, 53, 53, 0.2);
+            border-radius: 50px;
+            overflow: hidden;
+        }
+
+        .img{
+            height: 350px;
+            background: rgb(255, 255, 255);
+            overflow: hidden;
+        }
+
+        .img img{
+            width: 100%;
+        }
+
+        .content{
+            text-align: center;
+            border-bottom: 2px solid #ffffff;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="website.html" class="title">WBC</a>
+            <div class="search">
+               <i class="fas fa-search"></i> 
+               <input type="search" name="" placeholder="search">
+            </div>
+    </header> 
+            <div class="main">
+                <div class="img">
+                    <img src="neck1.jpg" alt="">
+                </div>
+            <div class="content">
+                <h3>October 25, 2022</h3>
+                <h1>Necklace</h1>
+                <p>
+                    Princess necklace, sweet design for an evening party. This work is not much and not less. I can say that it's a pretty fit. With a combination of round diamonds and diamond mackeys.
+                </p>
+            </div>
+            </div>
+     
+</body>
+</html>
