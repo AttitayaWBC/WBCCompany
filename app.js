@@ -25,7 +25,7 @@ const router = express.Router();
 var http = require('http');
 var fs = require('fs');
 process.env.PWD = process.cwd()
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname ));
 app.get('/',function(req,res) {
     res.sendFile(path.join(__dirname+'/Website.html'));
   });
